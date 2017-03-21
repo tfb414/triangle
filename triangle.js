@@ -41,4 +41,4 @@ function typeOfTriange(side1, side2, side3){
     }
   }
 
-triangleTest(1,2);
+triangleTest(1,2); 
