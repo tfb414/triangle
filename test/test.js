@@ -22,6 +22,9 @@ describe('triangleAnalyzer', function(){
   it('if 1,2,10 are passed in return "Error: Triangle cannot exist"', function(){
     expect(function() {triangleAnalyzer(1,2,10)}).toThrow("Error: Triangle cannot exist");
   });
+  it('if 1,2,3,4 are passed in return "Error: Triangle cannot exist"', function(){
+      expect(function() {triangleAnalyzer(1,2,3,4)}).toThrow("Error: Triangle cannot exist");
+  });
 
 });
 
